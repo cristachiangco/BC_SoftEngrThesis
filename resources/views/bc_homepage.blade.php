@@ -10,35 +10,41 @@
             <h1>Pasig City Online Teleconsultation</h1>
             <p id="hpcont1_p1"><span id="oldoc">Online Doctors</span><br/>that accomodate you<br/>and your health needs</p>
             <div id="hp_btns_cont_1">
-                <li><a href="" id="btns11">Book an Appointment Today</a></li>
-                <li><a href="" id="btns12">I'm Already a Patient</a></li>
+                <a href="" id="btns11">Book an Appointment Today</a>
+                <a href="" id="btns12">I'm Already a Patient</a>
             </div>
         </div>
 
         <div id="hp_container_2">
-            <h4>Only the best doctors to bring the best care.</h4>
+            <h4>Only the best doctors to bring you  the best care.</h4>
             <div id="doc">
                 <img id="doc_img" src="img/doc1.jpg">
-                <p><a id="docname">Teressa Suriel, MD</a></br>University Of Oxford</p>
+                <p><a id="docname">Teressa Suriel, MD</a></br>University of Santo Tomas</p>
             </div>
             <div id="doc">
                 <img id="doc_img" src="img/doc2.jpg">
-                <p><a id="docname">Cicely Geisel, MD</br></a>University of Cambridge</p>
+                <p><a id="docname">Cicely Geisel, MD</br></a>University of Santo Tomas</p>
             </div>
             <div id="doc">
                 <img id="doc_img" src="img/doc3.jpg">
-                <p><a id="docname">Garret Sautner, MD</br></a>University of Cambridge</p>
+                <p><a id="docname">Garret Sautner, MD</br></a>De La Salle University</p>
+            </div>
+            <div id="doc">
+                <img id="doc_img" src="img/doc4.jpg">
+                <p><a id="docname">Reilly Patterson, MD</br></a>University of the East</p>
+            </div>
+            <div id="doc">
+                <img id="doc_img" src="img/doc5.jpg">
+                <p><a id="docname">Agustus Holland, MD</br></a>University of the East</p>
             </div>
         </div>
 
-        <div id="hp_container_3" height="70%">
-            <div id="hpcont3_bgfilter">
-                <h2 id="hp_cont3_title">Why To Choose Pasig City Online Teleconsultation ?</h2>
-                <div id="hp_cont3_inner">
-                    <li><img id="hpcont3_img" src="/img/family.PNG"></li>
-                    <li><img id="hpcont3_img" src="/img/best.PNG"></li>
-                    <li><img id="hpcont3_img" src="/img/secure.PNG"></li>
-                </div>
+        <div id="hp_container_3">
+            <h2 id="hp_cont3_title">Why To Choose Pasig City Online Teleconsultation ?</h2>
+            <div id="hp_cont3_inner">
+                <li><img id="hpcont3_img" src="/img/family.PNG"></li>
+                <li><img id="hpcont3_img" src="/img/best.PNG"></li>
+                <li><img id="hpcont3_img" src="/img/secure.PNG"></li>
             </div>
         </div>
             
@@ -75,14 +81,14 @@
                 <tr>
                     <td id="td11"><p> All Rights Reserved 2021</p></td>
                     <td id="tdex"><div id="extra">
-                        <li><a id="f" href="">About Us</a></li>
-                        <li><a id="f" href="">Privacy Policy</a></li>
-                        <li><a id="f" href="">Terms and Conditions</a></li>
+                        <a id="f" href="">About Us</a>
+                        <a id="f" href="">Privacy Policy</a>
+                        <a id="f" href="">Terms and Conditions</a>
                      </div></td>
                     <td id="td11"><div id="social">
-                        <li><a id="f" href="">Facebook</a></li>
-                        <li><a id="f"href="">Google</a></li>
-                        <li><a id="f" href="">Linkedln</a></li>
+                        <a id="f" href="">Facebook</a>
+                        <a id="f"href="">Google</a>
+                        <a id="f" href="">Linkedln</a>
                     </div></td>
                     <td id="td11"><div id="contact">
                         <li>095-7689-122</li>

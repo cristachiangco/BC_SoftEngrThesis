@@ -28,7 +28,7 @@
                         <li><img id="pay_logo" src="/img/paypal.png"></li>
                     </div>
                     <div id="gs_btns_cont_1">
-                        <li><a href="" id="btnsGS">Get Started</a></li>
+                        <a href="" id="btnsGS">Get Started</a>
                     </div>
                 </div>
             </div>
