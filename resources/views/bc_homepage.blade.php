@@ -16,7 +16,19 @@
         </div>
 
         <div id="hp_container_2">
-            
+            <h4>Only the best doctors to bring the best care.</h4>
+            <div id="doc">
+                <img id="doc_img" src="img/doc1.jpg">
+                <p><a id="docname">Teressa Suriel, MD</a></br>University Of Oxford</p>
+            </div>
+            <div id="doc">
+                <img id="doc_img" src="img/doc2.jpg">
+                <p><a id="docname">Cicely Geisel, MD</br></a>University of Cambridge</p>
+            </div>
+            <div id="doc">
+                <img id="doc_img" src="img/doc3.jpg">
+                <p><a id="docname">Garret Sautner, MD</br></a>University of Cambridge</p>
+            </div>
         </div>
 
         <div id="hp_container_3" height="70%">
@@ -31,7 +43,7 @@
         </div>
             
         <div id="hp_container_4">
-        <img id="icon" src="/img/howitworks_icons.PNG">
+        <img id="purchase" src="/img/purchase.PNG">
             <div id="howitworks">
                 <label id="hp_cont4_title">How It Works ?</label>
                 <div id="works">
@@ -42,7 +54,7 @@
             </div>
            
             <img id="seeadoctor" src="/img/seeadoctor.PNG">
-            <img id="purchase" src="/img/purchase.PNG">
+           
         </div>
 
         <div id="hp_container_5">
@@ -55,21 +67,27 @@
         <div id="footer">
             <table>
                 <tr>
-                    <td id="td1"><p> All Rights Reserved 2021</p></td>
+                    <td id="td11"></td>
+                    <td id="tdex"><a id="f" href="">info@pasigcityonlineteleconsultation.com.ph</a></td>
                     <td id="td2"><p>Social</p></td>
                     <td id="td2"><p>Contacts</p></td>
                 </tr>
                 <tr>
-                    <td id="td11"></td>
-                    <td id="td22"><div id="social">
+                    <td id="td11"><p> All Rights Reserved 2021</p></td>
+                    <td id="tdex"><div id="extra">
+                        <li><a id="f" href="">About Us</a></li>
+                        <li><a id="f" href="">Privacy Policy</a></li>
+                        <li><a id="f" href="">Terms and Conditions</a></li>
+                     </div></td>
+                    <td id="td11"><div id="social">
                         <li><a id="f" href="">Facebook</a></li>
                         <li><a id="f"href="">Google</a></li>
                         <li><a id="f" href="">Linkedln</a></li>
                     </div></td>
-                    <td id="td22"><div id="contact">
-                        <li><a id="f" href="">info@pasigcityonlineteleconsultation.com.ph</a></li>
-                        <li><a id="f" href="">Privacy Policy</a></li>
-                        <li><a id="f" href="">Terms and Conditions</a></li>
+                    <td id="td11"><div id="contact">
+                        <li>095-7689-122</li>
+                        <li>(02)-5678-0987</li>
+                        <li>pasigcityonlineteleconsultation@gmail.com</li>
                     </div></td>
                 </tr>
             </table>
