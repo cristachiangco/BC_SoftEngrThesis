@@ -17,6 +17,14 @@
             <div id="chat_cont">
                 <div id="chat_cont_inner">
                     <h2>Hi and Welcome ~</h2>
+                    <div>
+                        <p id="userdoc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                        <p id="userpat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                        <p id="userdoc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                        <p id="userpat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                        <p id="userdoc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                        <p id="userpat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel dapibus diam, vel tempor ligula</p>
+                    </div>
                 </div>
             </div>
         </div>
