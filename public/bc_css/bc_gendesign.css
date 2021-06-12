@@ -249,7 +249,7 @@ table {color: white;}
 #gs_container_1, #log_container_1, #chat_container_1, #cb_container_1, 
 #paAcct_container_1 {padding: 1% 4%; height: 80%;}
 
-#guides, #log_cont, #cb_cont {
+#guides, #log_cont {
     height: wrap;
     max-width: 60%;
     background-color: rgba(255, 255, 255, 0.7);
@@ -258,11 +258,11 @@ table {color: white;}
 }
 
 #guides, #guides_inner, #steps>li, #gs_btns_cont_1>li, #log_cont, 
-#log_cont_inner, #log_btns_cont_1>li, #cb_cont, #cbcont_inner {margin: auto;}
+#log_cont_inner, #log_btns_cont_1>li {margin: auto;}
 
 #steps>li, #form>li, #logos>li {list-style: none;}
 
-#guides_inner, #log_cont_inner, #cbcont_inner {text-align: center;}
+#guides_inner, #log_cont_inner {text-align: center;}
 
 #form>li {margin-bottom: 1%;}
 
@@ -312,14 +312,6 @@ input:focus {background-color: #38a4a4; color: white;}
 /* login page ~ continue with gmail*/
 #my-signin2 {margin: 5% 35% 5% 35%;}
 
-/* chat page */
-
-#convo {padding: 1%;}
-
-#cb, #pa {text-align: center; width: wrap; border-radius: 20px; position: absolute;}
-#cb {color: black; background-color: lightgrey; float: left; clear: right;}
-#pa {color: white; background-color: #336868; float: right; clear: left;}
-
 /* patients account page */
 
 #paAcct_img {
@@ -368,11 +360,60 @@ input:focus {background-color: #38a4a4; color: white;}
 
 #me:hover {color: #336868; text-decoration: underline;}
 #me:active {color: #38a4a4;}
+
 /* 
 #me {
     margin: 5% 8%;
     max-width: 100%;
     padding: 2% 10%;
     background-color: pink;
-    /* max-width: 20vw; */
+    max-width: 20vw;
 } */
+
+
+/*
+Problem with Chat
+Trying to Fix...
+*/
+#cb_cont {
+    height: auto;
+    overflow: hidden;
+    max-width: 60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 30px;
+
+    margin: auto;
+}
+
+#cbcont_inner {
+    margin: auto;
+    text-align: center;
+}
+
+#convo {
+    padding: 1%;
+    position: relative;
+}
+
+#cb, #pa {
+    text-align: center;
+    width: wrap;
+    border-radius: 20px;
+    position: block;
+    padding: 10px;
+}
+
+#cb {
+    color: black;
+    background-color: lightgrey;
+    float: left;
+    clear: right;
+}
+
+#pa {
+    color: white;
+    background-color: #336868;
+    float: right;
+    clear: left;
+}

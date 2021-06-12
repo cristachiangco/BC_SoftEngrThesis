@@ -16,14 +16,21 @@
         <div id="cb_container_1">
             <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
             <div id="cb_cont">
+
                 <div id="cbcont_inner">
                     <h2>Hi and Welcome ~</h2>
+
                     <div id="convo">
                         <p id=cb>hkasdfghjk</p>
                         <p id="pa">saadretfghyui</p>
                         <p id=cb>hkasdfghjk</p>
                         <p id="pa">saadretfghyui</p>
+                        <p id=cb>hkasdfghjk</p>
+                        <p id="pa">saadretfghyui</p>
+                        <p id=cb>hkasdfghjk</p>
+                        <p id="pa">saadretfghyui</p>
                     </div>
+
                 </div>
             </div>
         </div>
