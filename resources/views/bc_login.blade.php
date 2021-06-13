@@ -15,7 +15,7 @@
 
     <body>
         <div id="log_container_1">
-            <h1>Pasig City Online Teleconsultation</h1>
+            <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
             <div id="log_cont">
                 <div id="log_cont_inner">
                     <h2>Sign In</h2>
@@ -24,7 +24,7 @@
                         <li><label>Password  :  </label><input type="password" minlength="8" maxlength="20"/></li>
                     </div>
                     <div id="log_btns_cont_1">
-                        <li><a href="" id="btnsLOG">Log In</a></li>
+                        <a href="/Chat" id="btnsLOG">Log In</a>
                     </div>
                 </div>
                 <div id="my-signin2"></div>

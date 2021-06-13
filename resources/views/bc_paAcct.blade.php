@@ -7,23 +7,23 @@
                 background-image: url('/img/hospital_bg5.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-attachment: fixed;
             }
         </style>
+
+        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     </head>
 
     <body>
-        <div id="cb_container_1">
+        <div id="paAcct_container_1">
             <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
-            <div id="cb_cont">
-                <div id="cbcont_inner">
-                    <h2>Hi and Welcome ~</h2>
-                    <div id="convo">
-                        <p id=cb>hkasdfghjk</p>
-                        <p id="pa">saadretfghyui</p>
-                        <p id=cb>hkasdfghjk</p>
-                        <p id="pa">saadretfghyui</p>
-                    </div>
+            <div id="paAcct_cont">
+                <img id="paAcct_img" src="/img/doc4.jpg">
+                <h3>Reilly M. Patterson</h3>
+            </div>
+            <div id="paAcct_cont2">
+                <div id="menu_cont">
+                    <a id="me">Manage Account</a>
+                    <a id="me">Appointment Records</a>
                 </div>
             </div>
         </div>

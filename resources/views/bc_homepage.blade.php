@@ -5,13 +5,13 @@
     </head>
 
     <body>
-        <a id="chat" href="">Talk with Us !</a>
+        <a id="chat" href="/Chat">Talk with Us !</a>
         <div id="hp_container_1">
             <h1>Pasig City Online Teleconsultation</h1>
             <p id="hpcont1_p1"><span id="oldoc">Online Doctors</span><br/>that accomodate you<br/>and your health needs</p>
             <div id="hp_btns_cont_1">
-                <a href="" id="btns11">Book an Appointment Today</a>
-                <a href="" id="btns12">I'm Already a Patient</a>
+                <a href="/GetStarted" id="btns11">Book an Appointment Today</a>
+                <a href="/SignIn" id="btns12">I'm Already a Patient</a>
             </div>
         </div>
 
@@ -64,10 +64,8 @@
         </div>
 
         <div id="hp_container_5">
-            <div id="hpcont5_bgfilter">
-                <p id="hpcont5_p1">What is Teleconsultation ?</p>
-                <p id="hpcont5_p2">Teleconsultation is a general term for any consultation between doctors or between doctors and patients on a network or video link. Pasig City Online Tele-consultation doctors may ask you, or someone else present, to help you examine your condition and will let you know if you will benefit from a referral to a specialist, or if a prescription is needed.</p>
-            </div>
+            <p id="hpcont5_p1">What is Teleconsultation ?</p>
+            <p id="hpcont5_p2">Teleconsultation is a general term for any consultation between doctors or between doctors and patients on a network or video link. Pasig City Online Tele-consultation doctors may ask you, or someone else present, to help you examine your condition and will let you know if you will benefit from a referral to a specialist, or if a prescription is needed.</p>
         </div>
 
         <div id="footer">

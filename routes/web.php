@@ -21,10 +21,14 @@ Route::get('/GetStarted', function(){
     return view('bc_getstarted');
 });
 
-Route::get('/Login', function(){
+Route::get('/SignIn', function(){
     return view('bc_login');
 });
 
 Route::get('/Chat', function(){
     return view('bc_chat');
+});
+
+Route::get('/UserAccount', function(){
+    return view('bc_paAcct');
 });

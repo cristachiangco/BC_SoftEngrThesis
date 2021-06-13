@@ -13,7 +13,7 @@
 
     <body>
         <div id="gs_container_1">
-            <h1>Pasig City Online Teleconsultation</h1>
+            <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
             <div id="guides">
                 <div id="guides_inner">
                     <h2>Just 3 EASY STEPS to book an appointment</h2>
@@ -28,7 +28,7 @@
                         <li><img id="pay_logo" src="/img/paypal.png"></li>
                     </div>
                     <div id="gs_btns_cont_1">
-                        <a href="" id="btnsGS">Get Started</a>
+                        <a href="/Chat" id="btnsGS">Get Started</a>
                     </div>
                 </div>
             </div>
