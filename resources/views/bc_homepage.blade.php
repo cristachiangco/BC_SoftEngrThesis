@@ -97,7 +97,7 @@
         </div>
 
         <div id="footer">
-            <table>
+            <table id="foot_tbl">
                 <tr>
                     <td id="td11"></td>
                     <td id="tdex"><a id="f" href="">info@pasigcityonlineteleconsultation.com.ph</a></td>

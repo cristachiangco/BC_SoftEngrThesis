@@ -17,7 +17,7 @@
         <div id="log_container_1">
             <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
             <div id="log_cont">
-
+            
                 <!-- Log In Form to Verify the Database... -->
                 <form id = "log_cont_inner" method = "POST" action = "/">
 

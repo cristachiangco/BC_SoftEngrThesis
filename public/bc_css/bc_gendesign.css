@@ -225,7 +225,7 @@ a#btnsGS, a#btnsLOG {margin-left: 40%; width: 15%;}
 
 #footer {background-color: #336868; height: 15%; padding: 1% 0;}
 
-table {color: white;}
+#foot_tbl {color: white;}
 
 #social>a, #contact>li, #extra>a {list-style: none; margin: 1% 0; display: block;}
 
@@ -421,11 +421,45 @@ Trying to Fix...
     clear: left;
 }
 
+#textbox_tbl {
+    width: 100%;
+}
+
+#textbox {
+    max-width: 56%;
+    padding: 1% 4%;
+    margin: auto;
+    background-color: #336868;
+    border-radius: 20px;
+}
+
+#txtbx {
+    width: 80%;
+}
+
+#tb_btn {
+    width: 15%;
+    text-align: right;
+}
+
+#send {
+    height: 30px;
+    width: 30px;
+    object-fit: fill;
+}
+
+#tb {
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+
+
 /* LogIn Btn Patient Icon... */
-.patient_icon {
+/* .patient_icon {
     width: 30px;
     height: 30px;
-    /* padding: -1% -2% -5% 5%; */
     margin: -3% 3% -4.5% -15%;
     border: 1px solid black;
     border-radius: 50%;
@@ -444,6 +478,7 @@ Trying to Fix...
 /* LogIn Btn Patient Icon... */
 
 /* LogIn Btn when Account Already Signed In */
+
 #btns13 {
     text-align: center;
     text-decoration: none;
@@ -464,6 +499,10 @@ Trying to Fix...
 }
 
 #btns13:active {
+    color: white;
+    background-color: black;
+}
+/* LogIn Btn when Account Already Signed In */
     color: white;
     background-color: black;
 }
