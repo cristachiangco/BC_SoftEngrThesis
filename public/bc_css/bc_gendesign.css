@@ -58,7 +58,6 @@ a#btnsLOG:active {color: black; background-color: #38a4a4;}
 
 a#btnsGS, a#btnsLOG {margin-left: 40%; width: 15%;}
 
-
 #chat {
     padding: 1% 4%;
     background-color: #336868;
@@ -376,8 +375,12 @@ Problem with Chat
 Trying to Fix...
 */
 #cb_cont {
+
+    /* This are the only Changes added to the ChatPage... */
     height: auto;
     overflow: hidden;
+    /* This are the only Changes added to the ChatPage... */
+
     max-width: 60%;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 2%;
@@ -417,3 +420,51 @@ Trying to Fix...
     float: right;
     clear: left;
 }
+
+/* LogIn Btn Patient Icon... */
+.patient_icon {
+    width: 30px;
+    height: 30px;
+    /* padding: -1% -2% -5% 5%; */
+    margin: -3% 3% -4.5% -15%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.patient_icon:hover {
+    background-color: #336868;
+    color: white;
+    box-shadow: 2px 4px 2px black;
+}
+
+.patient_icon:active {
+    color: black;
+    background-color: #38a4a4;
+}
+/* LogIn Btn Patient Icon... */
+
+/* LogIn Btn when Account Already Signed In */
+#btns13 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    max-width: 20vw;
+    padding: 1% 2%;
+    margin: 1%;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: block;
+}
+
+#btns13:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 4px 2px white;
+}
+
+#btns13:active {
+    color: white;
+    background-color: black;
+}
+/* LogIn Btn when Account Already Signed In */

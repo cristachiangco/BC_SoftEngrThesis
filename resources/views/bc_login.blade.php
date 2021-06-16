@@ -17,16 +17,27 @@
         <div id="log_container_1">
             <a href="/" id="title"><h1>Pasig City Online Teleconsultation</h1></a>
             <div id="log_cont">
-                <div id="log_cont_inner">
-                    <h2>Sign In</h2>
-                    <div id="form">
-                        <li><label>Username : </label><input maxlength="10"/></li>
-                        <li><label>Password  :  </label><input type="password" minlength="8" maxlength="20"/></li>
+
+                <!-- Log In Form to Verify the Database... -->
+                <form id = "log_cont_inner" method = "POST" action = "/">
+
+                    <h2> Sign In </h2>
+
+                    <div id = "form">
+                        <li><label> Username : </label><input name = "username_signin" maxlength="10"/></li>
+                        <li><label> Password  :  </label><input name = "password_signin" type = "password" minlength = "8" maxlength = "20"/></li>
                     </div>
-                    <div id="log_btns_cont_1">
-                        <a href="/Chat" id="btnsLOG">Log In</a>
+
+                    <div id = "log_btns_cont_1">
+                        <a href = "/Chat" id = "btnsLOG"> Log In </a>
+                        
+                        <!-- Creating Button Input Type for LogIn Form Submission -->
+                        <!-- <input type = "submit" name = "button_signin" id = "btnsLOG" value = "Log In"/> -->
                     </div>
-                </div>
+
+                </form>
+                <!-- Log In Form to Verify the Database... -->
+                
                 <div id="my-signin2"></div>
                     <script>
                         function onSuccess(googleUser) {

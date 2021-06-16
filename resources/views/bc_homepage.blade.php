@@ -11,7 +11,35 @@
             <p id="hpcont1_p1"><span id="oldoc">Online Doctors</span><br/>that accomodate you<br/>and your health needs</p>
             <div id="hp_btns_cont_1">
                 <a href="/GetStarted" id="btns11">Book an Appointment Today</a>
-                <a href="/SignIn" id="btns12">I'm Already a Patient</a>
+
+                <!-- Make User LogIn Function, Changes to Username from Default ("I'm Already a Patient") -->
+                <!-- <a href="/SignIn" id="btns12">I'm Already a Patient</a> -->
+
+                <!-- Old Login Session Method from Plant_Shop -->
+                <?php	
+				if (isset($_SESSION['name']) || !empty($_SESSION['name'])) {
+					$nam = $_SESSION['name'];                    
+                    echo '<a href = "/SignIn" id = "btns13"> Hi' . $nam . '</a>';
+
+                    // make this Sign Out Button to No More Session or Account Sign In
+                    echo '<a href = "/" id = "btns12"> Sign Out </a>';
+
+                    //Reference for User Logged In....
+					// echo '<a class = "login" href = "psk_logout.php">' . $nam . '<img class = "user_icon" src = "icons/ico_user.png"/></a>';
+				}else{
+                    // Original Default Value if No User Logged In...
+                    // echo '<a href = "/SignIn" id = "btns12"> I\'m Already a Patient </a>';
+
+                    //Demo if There is Already User Logged In...
+                    echo '<a href = "/SignIn" id = "btns13"> Hi <b>Laurence Angelo</b> </a>';
+                    echo '<a href = "/" id = "btns12"> Sign Out </a>';
+
+                    //Reference for Default Value if No User Logged In....
+					// echo '<a class = "login" href = "psk_login.php"> Log In <img class = "user_icon" src = "icons/ico_user.png"/></a>';
+				}
+			    ?>
+                <!-- Old Login Session Method from Plant_Shop -->
+
             </div>
         </div>
 
