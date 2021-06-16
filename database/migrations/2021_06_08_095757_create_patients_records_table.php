@@ -19,8 +19,8 @@ class CreatePatientsRecordsTable extends Migration
             $table->string('time');
             $table->text('concerns');
             $table->text('service_request');
-            $table->string('cancel_chckbx');
-            $table->string('rebooked_chckbx');
+            $table->boolean('cancel_chckbx');
+            $table->boolean('rebooked_chckbx');
             $table->timestamps();
         });
     }

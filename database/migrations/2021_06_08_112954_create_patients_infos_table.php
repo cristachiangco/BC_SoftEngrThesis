@@ -16,7 +16,7 @@ class CreatePatientsInfosTable extends Migration
         Schema::create('patients_infos', function (Blueprint $table) {
             $table->id();
             $table->string('username');
-            $table->string('password');
+            $table->string('userpassword');
             $table->string('first_name');
             $table->string('last_name');
             $table->string('middle_initial');
