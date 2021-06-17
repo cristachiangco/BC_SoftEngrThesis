@@ -20,7 +20,7 @@
                 <div id="log_cont_inner">
                     <h2>Sign In</h2>
                     <div id="form">
-                        <li><label>Username : </label><input maxlength="10"/></li>
+                        <li><label>Username : </label><input/></li>
                         <li><label>Password  :  </label><input type="password" minlength="8" maxlength="20"/></li>
                     </div>
                     <div id="log_btns_cont_1">

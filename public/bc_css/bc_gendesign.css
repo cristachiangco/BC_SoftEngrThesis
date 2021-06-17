@@ -450,3 +450,53 @@ Trying to Fix...
     background-color: white;
     color: black;
 }
+
+
+
+/* LogIn Btn Patient Icon... */
+/* .patient_icon {
+    width: 30px;
+    height: 30px;
+    margin: -3% 3% -4.5% -15%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.patient_icon:hover {
+    background-color: #336868;
+    color: white;
+    box-shadow: 2px 4px 2px black;
+}
+
+.patient_icon:active {
+    color: black;
+    background-color: #38a4a4; */
+}
+/* LogIn Btn Patient Icon... */
+
+/* LogIn Btn when Account Already Signed In */
+.btns122 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    max-width: 20vw;
+    padding: 1% 2%;
+    margin: 1%;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: block;
+}
+
+.btns122:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 4px 2px white;
+}
+
+.btns122:active {
+    color: white;
+    background-color: black;
+}
+/* LogIn Btn when Account Already Signed In */
+=======

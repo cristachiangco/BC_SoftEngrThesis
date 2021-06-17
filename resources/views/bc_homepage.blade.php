@@ -11,7 +11,7 @@
             <p id="hpcont1_p1"><span id="oldoc">Online Doctors</span><br/>that accomodate you<br/>and your health needs</p>
             <div id="hp_btns_cont_1">
                 <a href="/GetStarted" id="btns11">Book an Appointment Today</a>
-                <a href="/SignIn" id="btns12">I'm Already a Patient</a>
+                <a href="/SignIn" id="btns12" class="btns122">I'm Already a Patient</a>
             </div>
         </div>
 
