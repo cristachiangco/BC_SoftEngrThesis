@@ -24,12 +24,12 @@
                     <h2> Sign In </h2>
 
                     <div id = "form">
-                        <li><label> Username : </label><input name = "username_signin" maxlength="10"/></li>
+                        <li><label> Username : </label><input name = "username_signin"/></li>
                         <li><label> Password  :  </label><input name = "password_signin" type = "password" minlength = "8" maxlength = "20"/></li>
                     </div>
 
                     <div id = "log_btns_cont_1">
-                        <a href = "/Chat" id = "btnsLOG"> Log In </a>
+                        <input type="submit" value="Log In" id="btnsLOG"/>
                         
                         <!-- Creating Button Input Type for LogIn Form Submission -->
                         <!-- <input type = "submit" name = "button_signin" id = "btnsLOG" value = "Log In"/> -->

@@ -37,7 +37,7 @@ h1 {
 
 /* all btns in hp and gs page */
 
-a#btns11, a#btns12, a#btnsGS, a#btnsLOG {
+a#btns11, a#btns12, a#btnsGS, #btnsLOG {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -51,12 +51,12 @@ a#btns11, a#btns12, a#btnsGS, a#btnsLOG {
 }
 
 a#btns11:hover, a#btns12:hover, a#btnsGS:hover, 
-a#btnsLOG:hover {background-color: #336868; color: white; box-shadow: 2px 4px 2px black;}
+#btnsLOG:hover {background-color: #336868; color: white; box-shadow: 2px 4px 2px black;}
 
 a#btns11:active, a#btns12:active, a#btnsGS:active, 
-a#btnsLOG:active {color: black; background-color: #38a4a4;}
+#btnsLOG:active {color: black; background-color: #38a4a4;}
 
-a#btnsGS, a#btnsLOG {margin-left: 40%; width: 15%;}
+a#btnsGS, #btnsLOG {margin-left: 40%; width: 15%;}
 
 #chat {
     padding: 1% 4%;
@@ -499,10 +499,6 @@ Trying to Fix...
 }
 
 #btns13:active {
-    color: white;
-    background-color: black;
-}
-/* LogIn Btn when Account Already Signed In */
     color: white;
     background-color: black;
 }
