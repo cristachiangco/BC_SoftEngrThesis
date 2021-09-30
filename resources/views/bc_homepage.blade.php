@@ -14,7 +14,7 @@
 
                 <?php	
 				if (isset($_SESSION['name']) || !empty($_SESSION['name'])) {
-					$nam = $_SESSION['name'];                  
+					$nam = $_SESSION['name'];
                     echo '<a href = "/SignIn" id = "btns13"> Hi' . $nam . '</a>';
 
                     // make this Sign Out Button to No More Session or Account Sign In
