@@ -277,12 +277,16 @@ h1 { /* h1 for default format of logo */
 
 #footer {
     background-color: #336868; 
-    height: 15%; 
+    height: 40%; 
     padding: 1% 0;
 }
 
 #foot_tbl {
     color: white;
+}
+
+#foot_tbl>tr {
+    margin-top: 1%;
 }
 
 #social>a, #contact>li, #extra>a {
