@@ -32,3 +32,7 @@ Route::get('/Chat', function(){
 Route::get('/UserAccount', function(){
     return view('bc_paAcct');
 });
+
+Route::get('/PatientsRecords', function(){
+    return view('bc_peAcct_paRecordsView');
+});

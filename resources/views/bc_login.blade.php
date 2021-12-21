@@ -38,7 +38,7 @@
                 </form>
                 <!-- Log In Form to Verify the Database... -->
                 
-                <div id="my-signin2"></div>
+                <!-- <div id="my-signin2"></div>
                     <script>
                         function onSuccess(googleUser) {
                         console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -56,7 +56,7 @@
                             'onsuccess': onSuccess,
                             'onfailure': onFailure
                         });
-                        }
+                        } -->
                     </script>
                     <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
             </div>
